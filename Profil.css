@@ -101,6 +101,7 @@ a:hover{
 
 #formulaireConnection{
     padding: 50px;
+    margin-bottom: 10em;
     margin-top: 30px;
     padding-top: 0px;
     padding-bottom: 30px;
@@ -156,6 +157,26 @@ a:hover{
     inset 0 0 1em black,
     0 0 1em black;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align :center;
+}
+
+.tos{
+    text-decoration: none;
+    color: white;
+}
+
+.tos:hover{
+    color: red;
+}
+
 
 @media screen and (max-width: 767px){
     .boutonFormulaire{

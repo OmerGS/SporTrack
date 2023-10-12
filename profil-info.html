@@ -22,27 +22,25 @@
         </div>
     </div>
 
-    <div class="formulaireTexte">
-        <h1>Profil Utilisateur</h1>
-        <p>Nom : </p>
-        <p>Prénom : </p>
-        <p>Date de Naissance : </p>
-        <p>Sexe :</p>
-        <p>Taille : </p>
-        <p>Poids : </p>
-        <p>E-mail : </p>
-        <div class="boutonFormulaire">
-            <form action="Profil.html" method="post">
-                <button type="submit" class="buttonConnect" ><a href="profil-info.html"></a>Modifier profil</button>
-            </form>
+    <div class="centrerFormulaire">
+        <div class="formulaireTexte">
+            <h1>Vos Informations</h1>
+            <p>Nom : </p>
+            <p>Prénom : </p>
+            <p>Date de Naissance : </p>
+            <p>Sexe :</p>
+            <p>Taille : </p>
+            <p>Poids : </p>
+            <p>E-mail : </p>
         </div>
-        <div id="formulaireConnection">
-            <form action="Profil.html" method="post" enctype="multipart/form-data">
-              <label for="fichier">Sélectionnez un article</label>
-                <input type="file" id="fichier" name="fichier" accept=".json">
-              <input type="submit" value="Envoyer le fichier">
-              </form>    
-        </div>
+        
+        <form action="Profil.html" method="post">
+            <button type="submit" class="buttonConnect" >Sauvegarder</button>
+        </form>
     </div>
+
+    <footer>
+        <p><a class="tos" href="#">Terms of Service</a></p>
+    </footer>
 </body>
 </html>
