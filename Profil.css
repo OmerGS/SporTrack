@@ -17,6 +17,43 @@ body{
     color: snow;
 }
 
+.bouton{
+    margin-right: 10px;
+    display: flex;
+    width: 45%;
+    height: 100px;
+    flex-direction:row-reverse;
+    justify-content:end ;
+    align-items: center;
+}
+
+.boutonFormulaire{
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    font-family: Nunito;
+    width: 110px;
+    height: 38px;
+    border: 2px solid white;
+    background-color: black;
+    transition: 0.5s;
+    -webkit-border-radius: 12px / 24px;
+    -moz-border-radius:    12px / 24px; 
+    border-radius:         12px / 24px; 
+}
+
+.boutonFormulaire:hover {
+    transition: 0.5s;
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid white;
+    -webkit-border-radius: 12px / 24px;
+    -moz-border-radius:    12px / 24px; 
+    border-radius:         12px / 24px; 
+    text-decoration: none;
+}
+
 .boutonFormulaireResponsive{
     visibility: hidden;
 }
@@ -41,8 +78,8 @@ a:hover{
     display:flex;
     justify-content:center;
     align-items:center;
-    height: 100px;
-    width: 200px;
+    height: 25em;
+    width: 70em;
     border: 5px solid black;
 }
 
@@ -64,6 +101,7 @@ a:hover{
 
 #formulaireConnection{
     padding: 50px;
+    margin-bottom: 10em;
     margin-top: 30px;
     padding-top: 0px;
     padding-bottom: 30px;
@@ -104,33 +142,6 @@ a:hover{
     margin-left: 35px;
 }
 
-.boutonFormulaire{
-    text-decoration: none;
-    margin-left: 60px;
-    color: white;
-    font-family: Nunito;
-    width: 110px;
-    height: 38px;
-    border: 2px solid white;
-    background-color: black;
-    transition: 0.5s;
-    -webkit-border-radius: 12px / 24px;
-    -moz-border-radius:    12px / 24px; 
-    border-radius:         12px / 24px; 
-}
-
-.boutonFormulaire:hover {
-    transition: 0.5s;
-    width: 110px;
-    height: 50px;
-    background-color: white;
-    border: 5px solid white;
-    -webkit-border-radius: 12px / 24px;
-    -moz-border-radius:    12px / 24px; 
-    border-radius:         12px / 24px; 
-    text-decoration: none;
-}
-
 .buttonConnect:hover{
     transition: 0.5s;
     transform: scale(1.2);
@@ -146,6 +157,26 @@ a:hover{
     inset 0 0 1em black,
     0 0 1em black;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align :center;
+}
+
+.tos{
+    text-decoration: none;
+    color: white;
+}
+
+.tos:hover{
+    color: red;
+}
+
 
 @media screen and (max-width: 767px){
     .boutonFormulaire{

@@ -24,21 +24,26 @@
 
     <div id="contenuPage">
         <div class="emplacementCourbe">
-            <p>Bonjour</p>
+            <p>Vous n'avez pas de donnée enregistré</p>
         </div>
     </div>
 
     <div class="formulaireTexte">
-             <form action="Profil.html" method="post">
-                <button type="submit" class="buttonConnect" ><a href="profil-info.html"></a>Modifier profil</button>
+             <form action="profil-info.html">
+                <button type="button" class="buttonConnect" ><a href="profil-info.html">Modifier profil</a></button>
             </form>
-        <div id="formulaireConnection">
-            <form action="/traitement-du-fichier" enctype="multipart/form-data">
-              <label for="fichier">Sélectionnez un article</label>
-                <input type="file" id="fichier" name="fichier" accept=".json">
-              <input type="submit" value="Envoyer le fichier">
-              </form>    
-        </div>
     </div>
+
+    <div id="formulaireConnection">
+        <form action="/traitement-du-fichier" enctype="multipart/form-data">
+            <label for="fichier">Sélectionnez un article</label>
+            <input type="file" id="fichier" name="fichier" accept=".json">
+            <input type="submit" value="Envoyer le fichier">
+        </form>    
+    </div>
+
+    <footer>
+        <p><a class="tos" href="tos.html">Terms of Service</a></p>
+    </footer>
 </body>
 </html>
