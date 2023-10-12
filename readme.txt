@@ -1,3 +1,12 @@
+Lien et ressource :
+
+W3schools :
+CSS : https://www.w3schools.com/css/
+HTML :  https://www.w3schools.com/html/default.asp
+
+
+Police d'écriture utilisée : https://fonts.googleapis.com/
+
 ####################################
 
 Commentaire du codes et des screenshot :
